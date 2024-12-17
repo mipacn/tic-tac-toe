@@ -1,0 +1,47 @@
+* {
+    color:red
+}
+
+h1 {
+    margin: auto;
+    padding-bottom: 5vh;
+}
+
+html {
+    height: 100vh;
+}
+
+body {
+    display: flex;
+    padding-top: 20vh;
+    flex-direction: column;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 20vh 20vh 20vh;
+    grid-template-rows: 20vh 20vh 20vh;
+    margin: 0;
+    width: 60vh;
+    margin: auto;
+}
+
+div {
+    width: 20vh;
+    height: 20vh;
+    color: black;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    font-size: 15vh;
+    box-sizing: border-box;
+}
+
+.one, .two, .three, .four, .five, .six {
+    border-bottom: 1vh solid black;
+}
+
+.one, .four, .seven, .two, .five, .eight {
+    border-right: 1vh solid black;
+}
+
